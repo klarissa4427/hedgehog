@@ -24,7 +24,7 @@
 
 body{ font-family: '123rf', sans-serif;}
 img{max-width:100%;}
-button{background: inherit ; border:none; box-shadow:none; border-radius:0; padding:0; overflow:visible; cursor:pointer;}
+button{background: inherit ; border:none; box-shadow:none; border-radius:0; padding:0; overflow:visible; cursor:pointer; font-family: inherit;}
 
 .ch_container{
   width: 100%;
