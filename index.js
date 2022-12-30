@@ -83,10 +83,13 @@ var textDataArr = [
 
 $(document).ready(function(){
   $('.button_prev').addClass('displaynone');
+  $('.talk_box .button_next').addClass('off');
   stageFunc();
 
   $('.button_prev').click(function(){
     chapt = chapt - 1;
+
+    $('.talk_box .button_next').addClass('off');
 
     if(!!textDataArr[chapt - 1]){
       $('.button_prev').removeClass('displaynone');
@@ -119,6 +122,8 @@ $(document).ready(function(){
   $(document).on('click', '.button_next', function(){
     chapt = chapt + 1;
 
+    $('.talk_box .button_next').addClass('off');
+
     if(!!textDataArr[chapt - 1]){
       $('.button_prev').removeClass('displaynone');
     }else{
@@ -144,6 +149,7 @@ function typing(){
     i++;
   }else{
     clearInterval(timer);
+    $('.talk_box .button_next').removeClass('off');
 
     if(!!dataSelect.length){ // 선택지가 있는 경우
       $.each(dataSelect, function(idx, item){
@@ -182,10 +188,9 @@ function stageFunc(){
       document.getElementById('audio').play();
     };
     if(!!dataSelect.length){ // 선택지(typing 함수에 나머지 이벤트 있음)
-      $('.talk_box .button_next').addClass('off');
+      $('.talk_box .button_next').addClass('displaynone');
     }else{
       $('.select_box').html('');
-      $('.talk_box .button_next').removeClass('off');
       $('.select_box').addClass('off');
     };
   };
