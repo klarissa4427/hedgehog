@@ -158,7 +158,6 @@ button{background: none; border:none; box-shadow:none; border-radius:0; padding:
   color: #fff;
   font-weight: 700;
   user-select: none;
-
 }
 .select_box button:nth-of-type(n+2){
   margin-top: 30px;
