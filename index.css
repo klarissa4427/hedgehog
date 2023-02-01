@@ -83,7 +83,10 @@ button{background: none; border:none; box-shadow:none; border-radius:0; padding:
   background: url(img/bg_talk.png) center bottom no-repeat;
   background-size:100% auto;
 }
-.talk_box .talk_name{position: absolute;}
+.talk_box .talk_name{
+  position: absolute;
+  user-select: none;
+}
 .talk_box .name{position: absolute; top: 50%; transform: translateY(-50%); left: 0; width: 95%; font-size: 45px; color: #fff; letter-spacing: 0.16em; text-align: center; font-family: 'morris', sans-serif; text-shadow: -1px 0px #CA75B3, 0px 1px #CA75B3, 1px 0px #CA75B3, 0px -1px #CA75B3;}
 .talk_box .text{position: absolute; opacity: 0; visibility: hidden;}
 .talk_box .typing_text{
@@ -94,7 +97,8 @@ button{background: none; border:none; box-shadow:none; border-radius:0; padding:
   padding: 0 60px;
   font-size: 31px;
   font-weight: 700;
-  letter-spacing: -0.015em;
+  letter-spacing: -0.025em;
+  user-select: none;
 }
 .talk_box button{
   position: absolute;
@@ -102,6 +106,7 @@ button{background: none; border:none; box-shadow:none; border-radius:0; padding:
   width: 200px;
   height: 100%;
   cursor: pointer;
+  user-select: none;
 }
 .talk_box .button_prev{
   left: 0;
@@ -114,6 +119,21 @@ button{background: none; border:none; box-shadow:none; border-radius:0; padding:
   position: absolute;
   bottom: 5px;
   right: 30px;
+}
+
+.all_text_button{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.button_next.off + .all_text_button{
+  visibility: visible;
 }
 
 .select_box{
@@ -142,8 +162,6 @@ button{background: none; border:none; box-shadow:none; border-radius:0; padding:
 .select_box button:nth-of-type(n+2){
   margin-top: 30px;
 }
-
-
 
 
 
