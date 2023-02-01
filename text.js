@@ -1,5 +1,6 @@
 var textDataArr = [
   {
+    name: 'xx',
     text: '안녕하세요. 개발자입니다. 대화창 좌측을 클릭하시면 이전 대화로 넘어가며, 우측을 클릭하시면 다음 대화로 넘어갑니다.',
     bg: '',
     crt: '',
@@ -8,6 +9,7 @@ var textDataArr = [
     select: [],
   },
   {
+    name: '',
     text: '1000일 기념으로 클라님과 함께 클헤 웹미연시를 만들어 보았습니다.',
     bg: '',
     crt: '',
@@ -16,6 +18,7 @@ var textDataArr = [
     select: [],
   },
   {
+    name: '',
     text: '시간상 편의성을 개선하지 못한 부분도 많고 최적화도 제대로 되어있지 않지만 모쪼록 즐겨운 경험이 되셨으면 좋겠습니다. ^_^b',
     bg: '',
     crt: '',
@@ -24,6 +27,7 @@ var textDataArr = [
     select: [],
   },
   {
+    name: '',
     text: '(버그 발견하시면... 클라님을 통하여 말씀 부탁드립니다. 꼭... 버그는 고치고 싶어요...)',
     bg: '',
     crt: '',
@@ -32,6 +36,7 @@ var textDataArr = [
     select: [],
   },
   {
+    name: '',
     text: '그럼 재미있는 미연시(를 가장한 그냥 스토리북) 되세요!',
     bg: '',
     crt: '',
@@ -39,7 +44,44 @@ var textDataArr = [
     audio: '',
     select: [],
   },
+  {
+    name: '',
+    text: '2023.02.25',
+    bg: 'img/bg_home.jpg',
+    crt: '',
+    cg: 'img/bg_container.png',
+    audio: '',
+    select: [],
+  },
+  {
+    name: '',
+    text: '짹짹… 새소리가 귀에 깊게 파고드는 아침입니다.',
+    bg: '',
+    crt: '',
+    cg: '',
+    audio: '',
+    select: [],
+  },
+  {
+    name: '',
+    text: '오늘은 간만의 휴일. 저번 900일 때도 그랬던 것 같은데… 이번 기념일도 가까스로 휴일을 냈습니다.',
+    bg: '',
+    crt: '',
+    cg: '',
+    audio: '',
+    select: [],
+  },
+  {
+    name: '',
+    text: '헤지와 당신이 바란 것은 아니었지만 삶이란 마음대로 흘러가지 않으니 말이에요.',
+    bg: '',
+    crt: '',
+    cg: '',
+    audio: '',
+    select: [],
+  },
 {
+  name: '',
     text: "찌뿌둥한 몸을 일으키고 나른하게 주변을 둘러봅니다.",
     bg: '',
     crt: '',
@@ -48,6 +90,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "새소리가 가깝다 싶더니, 역시 창문이 열려 솔솔 봄바람이 밀려들어오고 있습니다.",
     bg: '',
     crt: '',
@@ -56,6 +99,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "깔끔하게 정리 된 방은 당신과 헤지의 취향을 잘 보여주고 있네요.",
     bg: '',
     crt: '',
@@ -64,6 +108,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그리고 비어있는 당신의 옆자리…는 이제 익숙할지도 모르겠습니다. 기념일만 되면 기대된다며 당신보다 먼저 일어나는 아내가 있지 않나요?",
     bg: '',
     crt: '',
@@ -72,6 +117,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "하지만 여전히 남아있는 온기가 당신을 외롭게 만들지는 않는 것 같습니다.",
     bg: '',
     crt: '',
@@ -80,6 +126,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그 때,",
     bg: '',
     crt: '',
@@ -88,6 +135,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "우당탕탕!",
     bg: '',
     crt: '',
@@ -96,6 +144,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "음? 이게 무슨 소리죠?",
     bg: '',
     crt: '',
@@ -104,6 +153,7 @@ var textDataArr = [
     select: ['일어나서 문 쪽으로 다가간다.'],
   },
 {
+  name: '',
     text: "당신이 문 쪽으로 다가가자… ",
     bg: '',
     crt: '',
@@ -112,6 +162,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "끼익… 어라, 저번과 다르게 이번에는 당신이 힘을 주지 않아도 자연스럽게 문이 열립니다.",
     bg: '',
     crt: '',
@@ -120,6 +171,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그리고 당신의 눈 앞에는…",
     bg: '',
     crt: '',
@@ -128,6 +180,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "아하, 작은 소동의 주인공은 당신의 사랑스러운 아내였네요.",
     bg: '',
     crt: '',
@@ -136,30 +189,34 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '헤지호그',
     text: "달리잉! 달리이잉~ 우쥬!",
     bg: '',
-    crt: '',
+    crt: 'img/stand_smile.png',
     cg: '',
     audio: '',
     select: [],
   },
 {
+  name: '',
     text: "어…꺄!!",
     bg: '',
-    crt: '',
+    crt: 'img/stand_asto.png',
     cg: '',
     audio: '',
     select: [],
   },
 {
+  name: 'xx',
     text: "당신의 보실보실한 아내가 당신을 올려다봅니다.",
     bg: '',
-    crt: '',
+    crt: 'img/stand_asto_2.png',
     cg: '',
     audio: '',
     select: [],
   },
 {
+  name: '',
     text: "올려다본 얼굴은 당신이 문 앞까지 나올 것을 예상하지 못한 모양인지 놀란 기색이 역력합니다.",
     bg: '',
     crt: '',
@@ -168,6 +225,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "간드러지는 목소리가 그를 입증하는 듯 해요.",
     bg: '',
     crt: '',
@@ -176,14 +234,16 @@ var textDataArr = [
     select: ['무슨 일이냐고 묻는다'],
   },
 {
+  name: '',
     text: "당신의 말을 들은 그는 금새 눈을 가늘게 뜨고 방실방실 웃기 시작합니다.",
     bg: '',
-    crt: '',
+    crt: 'img/stand_smile_2.png',
     cg: '',
     audio: '',
     select: [],
   },
 {
+  name: '',
     text: "방금 있던 상황은 아무것도 아니라는 양 평정심을 되찾은 모습이 보여요.",
     bg: '',
     crt: '',
@@ -192,6 +252,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그는 당신의 품에 살포시 파고들며 이야기합니다.",
     bg: '',
     crt: '',
@@ -200,54 +261,61 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '헤지호그',
     text: "우웅… 달링이 깨어있을 줄은 몰랐더. 벌써 해가 중천인거얼.. ",
     bg: '',
-    crt: '',
+    crt: 'img/stand_shy1.png',
     cg: '',
     audio: '',
     select: [],
   },
 {
+  name: '',
     text: "있지 달리잉… 오늘 무슨 날인 줄 알아~?",
     bg: '',
-    crt: '',
+    crt: 'img/stand_smile.png',
     cg: '',
     audio: '',
     select: [],
   },
 {
+  name: 'xx',
     text: "모를리가 있겠나요. 오늘은 그와 결혼한지 1000일째 되는 날 아니었나요?",
     bg: '',
-    crt: '',
+    crt: 'img/stand_default_2.png',
     cg: '',
     audio: '',
     select: ['오늘은 1000일이라고 대답한다.'],
   },
 {
+  name: '',
     text: "당신의 답을 들은 그의 표정이 한결 더 밝아집니다. ",
     bg: '',
-    crt: '',
+    crt: 'img/stand_smile_2.png',
     cg: '',
     audio: '',
     select: [],
   },
 {
+  name: '헤지호그',
     text: "마쟈! 헤지랑 달링이 결혼한지 1000일 된 날이지로옹♥",
     bg: '',
-    crt: '',
+    crt: 'img/stand_smile.png',
     cg: '',
     audio: '',
     select: [],
   },
 {
+  name: '',
     text: "달링이 알구 있을거라구 생각햇더..그치만… 매번 달링이 헤지랑 데이트 코스 짜죳자나.. ",
     bg: '',
-    crt: '',
+    crt: 'img/stand_shy1.png',
     cg: '',
     audio: '',
     select: [],
   },
 {
+  name: '',
     text: "그러니까 이번에는 헤지가 해주구 싶었더.. 900일때도 달링이 헤지 맛있는 집 데려가 줬구우… 그래서 보답!",
     bg: '',
     crt: '',
@@ -256,38 +324,43 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "헤지랑 데이트 해줄거지? 오늘은 달링이 헤지 에스코트만 따라오면 대!",
     bg: '',
-    crt: '',
+    crt: 'img/stand_smile.png',
     cg: '',
     audio: '',
     select: [],
   },
 {
+  name: 'xx',
     text: "활기찬 목소리가 아무래도 '끗발나는' 데이트를 준비한 모양입니다.",
     bg: '',
-    crt: '',
+    crt: 'img/stand_smile_2.png',
     cg: '',
     audio: '',
     select: ['끗발나는 데이트를 준비했어요?', '달링이 기대해도 좋아요?'],
   },
 {
+  name: '',
     text: "우웅~! 달링이 말한 정도로 '끗발나는 데이트 코스'는 아니지만 '합법적으로 두근거릴 수 있는' 직책 정돈얻을 수 있을 거얼~?",
     bg: '',
-    crt: '',
+    crt: 'img/stand_smile.png',
     cg: '',
     audio: '',
     select: [],
   },
 {
+  name: '',
     text: "당신이 한 대답에 그가 매우 기뻐하는 것 같습니다.",
     bg: '',
-    crt: '',
+    crt: 'img/stand_smile_2.png',
     cg: '',
     audio: '',
     select: [],
   },
 {
+  name: '',
     text: "그는 늘상 남편의 짓궂은 말에 행복해하고, 즐거워 하곤 했지요. 오래 전부터 알고있던 사실입니다.",
     bg: '',
     crt: '',
@@ -296,6 +369,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "고개를 들어 시계를 바라보면 벌써 12시 반, 정오가 넘은 시간입니다.",
     bg: '',
     crt: '',
@@ -304,6 +378,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그간 있던 피로 때문일까요? 어쩐지 개운하더라니… 하염없이 푹 잔 모양입니다.",
     bg: '',
     crt: '',
@@ -312,14 +387,16 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "빨리 준비하자! 1시에 예약해놨더!",
     bg: '',
-    crt: '',
+    crt: 'img/stand_default.png',
     cg: '',
     audio: '',
     select: [],
   },
 {
+  name: '',
     text: "헤지랑 오늘두 데이트 옷 이버.. 헤지두 이쁘게 꾸미께?",
     bg: '',
     crt: '',
@@ -328,14 +405,16 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "저 들뜬 아내를 무시할 수 없겠죠.",
     bg: '',
-    crt: '',
+    crt: 'img/stand_default_2.png',
     cg: '',
     audio: '',
     select: [],
   },
 {
+  name: '',
     text: "당신은 그와 함께 드레스 룸으로 들어가 준비를 마칩니다.",
     bg: '',
     crt: '',
@@ -344,14 +423,16 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "(준비중….)",
     bg: '',
-    crt: '',
-    cg: '',
-    audio: '',
+    crt: 'xx',
+    cg: 'img/bg_black.jpg',
+    audio: 'audio/MP_Flapping_Wings_3.mp3',
     select: [],
   },
 {
+  name: '',
     text: "그럼 출발! 빨리 차에 시동거러~!!",
     bg: '',
     crt: '',
@@ -360,6 +441,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "오늘따라 아내가 더 막무가내인 것 같지만… 그래도 기분 좋은 아침입니다.",
     bg: '',
     crt: '',
@@ -368,6 +450,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "두 사람은 외출 준비를 마친 뒤 자가용에 탑승합니다. 이제 슬슬 출발해볼까요?",
     bg: '',
     crt: '',
@@ -376,6 +459,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "아! 오늘치 뽀뽀를 잊지 않고 말이에요.",
     bg: '',
     crt: '',
@@ -390,6 +474,7 @@ var textDataArr = [
 // 레스토랑
 
 {
+  name: '',
     text: "헤지호그의 안내를 받아 운전을 한지 30분이 지났습니다.",
     bg: '',
     crt: '',
@@ -398,6 +483,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "목적지는 두 사람이 사는 동네에서 멀지 않은 거리에 있는 작은 마을… 그리고보니 군에서 복무하던 시절 여기에 파견을 온 적이 있었던 것 같아요.",
     bg: '',
     crt: '',
@@ -406,6 +492,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "거리로 따지자면 그리 멀지 않은 거리였으나 30분이나 걸린데에는 사소한 사건이 있었습니다.",
     bg: '',
     crt: '',
@@ -414,6 +501,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그가 식당을 예약했다 떵떵대며 네비게이션에 식당을 찍었지만…어랍쇼? 네비게이션에 뜨지 않았습니다!",
     bg: '',
     crt: '',
@@ -422,6 +510,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "설마… 폐업했나?",
     bg: '',
     crt: '',
@@ -430,6 +519,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "하고 생각했지만…",
     bg: '',
     crt: '',
@@ -438,6 +528,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "어제 예약했어! 그럴리 없어!",
     bg: '',
     crt: '',
@@ -446,6 +537,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "라고 소리를 높여 열분을 토하는 아내가 있으니 그냥 넘길수도 없고 말이에요.",
     bg: '',
     crt: '',
@@ -454,6 +546,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "자기가 열심히 준비한 데이트가 망쳐질까 조마조마한 표정이 마치 과거의 사건을 떠올리게 합니다.",
     bg: '',
     crt: '',
@@ -462,6 +555,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "결국 그가 손수 위치를 찾아 기어이 찾아온 곳이 이 작은 마을입니다.",
     bg: '',
     crt: '',
@@ -470,6 +564,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "도착한 레스토랑은 근처에 거대한 연못이 은은하게 빛을 쬐는 한적한 부지입니다.",
     bg: '',
     crt: '',
@@ -478,6 +573,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "식당 건물의 외관은 그리 화려하지 않았으나 그 내부로 들어서니 단정하고 깔끔한 전경이 드러납니다.",
     bg: '',
     crt: '',
@@ -486,6 +582,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "어서오세요, 예약하셨나요?",
     bg: '',
     crt: '',
@@ -494,6 +591,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "내부를 구경하고 있자니 직원이 다가와 말을 건네오네요.",
     bg: '',
     crt: '',
@@ -502,6 +600,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "네! 헤지호그 슈바이거로 예약했어요. 두~명이요.",
     bg: '',
     crt: '',
@@ -510,6 +609,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "헤지호그 슈바이거 씨…",
     bg: '',
     crt: '',
@@ -518,6 +618,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "두 분, 1시 예약 맞으시죠? 이쪽으로 안내해드리겠습니다. ",
     bg: '',
     crt: '',
@@ -526,6 +627,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "두 사람은 직원의 안내를 받아 빛이 들어오는 창가에 착석합니다.",
     bg: '',
     crt: '',
@@ -534,6 +636,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "따사로운 햇빛이 은은하게 테이블 위로 비추고, 이어 직원은 간단한 추천 메뉴 설명과 함께 메뉴판을 들어 테이블 위에 가지런히 올려둡니다.",
     bg: '',
     crt: '',
@@ -542,6 +645,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "헤지호그는 내어진 메뉴판을 당신에게 보여주며 나직하게 이야기 해와요.",
     bg: '',
     crt: '',
@@ -550,6 +654,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "헤지 열심히 찾았어.. 항상 같이 가는 레스토랑도 엄청 좋아하지만 오늘은 특별한 날이잖아..",
     bg: '',
     crt: '',
@@ -558,6 +663,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "1000일이나 됐기도 했고.. 이번에는 헤지가 달링한테 특별한 기억을 남겨주고 싶었는거얼…",
     bg: '',
     crt: '',
@@ -566,6 +672,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "대신 옆동네고, 아무래도 우리 도시 이외에 지도는 제대로 업데이트가 안되고 있나봐. 여기 좀비사태에서 벗어난 지 꽤 된 것 같은데…이상하지?",
     bg: '',
     crt: '',
@@ -574,6 +681,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "여트은! 여기 음식 맛있데에… 뭐 먹을래?",
     bg: '',
     crt: '',
@@ -582,6 +690,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그의 말을 듣고 있자니 떠오르는 기억이 있습니다. 당신이 군인이었던 시절, 주어진 임무를 수행하기위해 이 마을로 파견을 나왔었고 얼마 지나지 않아 금방 좀비들을 일망 타진 했었죠.",
     bg: '',
     crt: '',
@@ -590,6 +699,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그런데도 아직도 지도 업데이트를 안해준다니… 이거 너무 나태한거 아닌가?",
     bg: '',
     crt: '',
@@ -598,6 +708,7 @@ var textDataArr = [
     select: ['역시 유능한 대위님이 없어서 그런 거 아닙니까?'],
   },
 {
+  name: '',
     text: "바부우! 그런 말 해도 안기뻐! (사실은 너무 기뻐어…!!)",
     bg: '',
     crt: '',
@@ -606,6 +717,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "우읏! 빨리 메뉴 골라아!",
     bg: '',
     crt: '',
@@ -614,6 +726,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "당신의 장난스러운 말에 또다시 간드러지는 웃음소리가 들려옵니다. 헤지는 정말…애교쟁이라니까요.",
     bg: '',
     crt: '',
@@ -622,6 +735,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "하지만 하염없이 그의 얼굴만 들여다 볼 수는 없겠죠.",
     bg: '',
     crt: '',
@@ -630,6 +744,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "당신은 메뉴판을 바라봅니다.",
     bg: '',
     crt: '',
@@ -638,6 +753,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "메뉴판에는…",
     bg: '',
     crt: '',
@@ -646,6 +762,7 @@ var textDataArr = [
     select: ['스테이크','파스타','리조또'],
   },
 {
+  name: '',
     text: "그럼 헤지느은~ 요거 먹을래! 파스타아..",
     bg: '',
     crt: '',
@@ -654,6 +771,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "헤지가 고른 파스타는 맛있는 빵안에 담긴 크림 파스타입니다. 빠네 파스타라고 했던가요? 양이 많아보이지만 나눠 먹으면 충분히 먹을 수 있는 양입니다.",
     bg: '',
     crt: '',
@@ -662,6 +780,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "모든 메뉴가 정해지자 그는 직원을 부르고, 곧이어 찾아온 직원에게 주문을 합니다.",
     bg: '',
     crt: '',
@@ -670,6 +789,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "두 사람이 대화하는 사이 당신은…",
     bg: '',
     crt: '',
@@ -678,6 +798,7 @@ var textDataArr = [
     select: ['주변을 둘러본다.'],
   },
 {
+  name: '',
     text: "사람이 없어 한적한 식당 안과 밖의 풍경을 바라봅니다.",
     bg: '',
     crt: '',
@@ -686,6 +807,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그리고보니 마지막으로 왔던 이 마을은 그야말로 폐허였는데… 창밖을 통해 본 밖의 풍경은 그때의 기억과는 매우 다른 모습을 띄고 있었습니다.",
     bg: '',
     crt: '',
@@ -694,6 +816,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "이런 곳이 있었던가요? 햇빛에 거대한 호수 물결이 아름답게 반사되고 청량함이 온몸으로 느껴집니다.바람도 선선히 불어와 낮에 오기 좋은 분위기라는 생각이 드네요. ",
     bg: '',
     crt: '',
@@ -702,6 +825,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그가 이곳을 선택한 이유를 알 것만 같습니다.",
     bg: '',
     crt: '',
@@ -710,6 +834,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "사진을 보니까 여기 경치가 엄청 좋더라구우… 마음에 드러어~?",
     bg: '',
     crt: '',
@@ -718,6 +843,7 @@ var textDataArr = [
     select: ['아주 마음에 들어요.'],
   },
 {
+  name: '',
     text: "히히..다행이야아..늘 달링이 멋진 데이트 코스 짜줘서 헤지가 늘 받기만 한 기분이었는거얼…",
     bg: '',
     crt: '',
@@ -726,6 +852,7 @@ var textDataArr = [
     select: ['그랬어요? 헤지도 많이 해줬는데…'],
   },
 {
+  name: '',
     text: "그치마안! 평소에는 달링이 더 많이 해주는 걸! 헤지가 하고싶다고 시작한 카페에서도 그렇구우..달링이 늘 헤지한테 해주기만 했었잖아?",
     bg: '',
     crt: '',
@@ -734,6 +861,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "매번 안아주고, 헤지가 졸려하면 카페도 대신 열어주구.. 맨날 달링한테는 받기밖에 한 적이 없었더…",
     bg: '',
     crt: '',
@@ -742,6 +870,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "헤지호그는 턱을 괴고 당신을 나른하게 바라봅니다. ",
     bg: '',
     crt: '',
@@ -750,6 +879,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "무언가 상기하는 듯한 그 표정과 시선… 마치 달콤한 꿀이 떨어지는 기분입니다.",
     bg: '',
     crt: '',
@@ -758,6 +888,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "게다가 달링은 언제나 시무룩한 헤지한테 믿음을 줬잖아… 헤지가 멋대로 생각하고 헤지가 혼자서 끙끙 앓을 때도 꼭 붙들어줬던게 달링이었구..",
     bg: '',
     crt: '',
@@ -766,6 +897,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "혼자 생각이 많아졌을 때도 꼭 달링한테 이야기 해달라고 했지.. 오해하면 안된다구 말이야…",
     bg: '',
     crt: '',
@@ -774,6 +906,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "예전에 했던 말 기억나? 한 눈 팔지 않는다고 했던거…",
     bg: '',
     crt: '',
@@ -782,6 +915,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "1000일이라는 시간 동안 매시간을 헤지만 바라보고 사랑해조서 고마어… 헤지, 앞으로도 달링을 열심히 사랑할거야. 그러니까 잘부탁해… 누군가를 이렇게 사랑해 본거 처음이야….",
     bg: '',
     crt: '',
@@ -790,6 +924,7 @@ var textDataArr = [
     select: ['혹시 결혼식 박람회 다녀왔을 때 한 말.. 기억하는 거예요?'],
   },
 {
+  name: '',
     text: "차에서 노닥대며 서로에 대한 사랑을 다짐했던 날. 그리고 당신은 무언가에 자신이 없어보이는 그에게 한가지 약속을 했었죠. ",
     bg: '',
     crt: '',
@@ -798,6 +933,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "한 눈 팔지 않을거라고, 당신만 보고 당신만 사랑하고, 당신만 아낄거라고 했었죠. 최선을 다해 남편으로 살거고, 그리고 준비하는 결혼식은 그런 다짐으로 하는거라고 말이에요.",
     bg: '',
     crt: '',
@@ -806,6 +942,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그때 했던 말이 그에게는 굉장히 특별한 말 이었나봅니다.",
     bg: '',
     crt: '',
@@ -814,6 +951,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "헤지호그는 부끄럽다는 듯 볼을 붉혀옵니다.",
     bg: '',
     crt: '',
@@ -822,6 +960,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그리고 그 말에 답을 해주듯 입술을 빠끔대다…",
     bg: '',
     crt: '',
@@ -830,6 +969,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "음식 나왔습니다, 뜨거우니 조심해 드세요!",
     bg: '',
     crt: '',
@@ -838,6 +978,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "식사가 나와버리네요.",
     bg: '',
     crt: '',
@@ -846,6 +987,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "감사합니다아~",
     bg: '',
     crt: '',
@@ -854,6 +996,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "웃음기 넘치는 얼굴이 직원을 향했다 당신을 바라봅니다.",
     bg: '',
     crt: '',
@@ -862,6 +1005,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "후우..부끄러어… 빨리 머거,달링!",
     bg: '',
     crt: '',
@@ -870,6 +1014,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "오늘 레스토랑은 헤지가 낼거야! 마음껏 머거! 부족하면 더 시켜두대!",
     bg: '',
     crt: '',
@@ -878,6 +1023,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "두 사람은 눈 앞의 식사에 집중하기로 합니다.",
     bg: '',
     crt: '',
@@ -886,6 +1032,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "오늘은 길고, 이 대화는 언제든 할 수 있으니까요.",
     bg: '',
     crt: '',
@@ -894,6 +1041,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "맛있는 음식이 테이블에서 사라져가고, 살랑살랑 밀려오는 봄바람이 기분 좋습니다",
     bg: '',
     crt: '',
@@ -902,6 +1050,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "….",
     bg: '',
     crt: '',
@@ -910,6 +1059,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "입맛에 맞았더? 괜찮았으면 나중에 또 올까? 다음에는 길 잃을 리 없을테니까 빨리 올 수 있을거야아!",
     bg: '',
     crt: '',
@@ -918,6 +1068,7 @@ var textDataArr = [
     select: ['엄청 좋았어요. 나중에 또 와도 좋을 것 같아요.'],
   },
 {
+  name: '',
     text: "히히..쥬아! 그러면 밥도 먹었으니까, 입가심 하러 가자! ",
     bg: '',
     crt: '',
@@ -926,6 +1077,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "식사를 마친 두 사람은 자리에서 일어나고, 직원에게 부탁해 계산을 마쳤습니다.",
     bg: '',
     crt: '',
@@ -934,6 +1086,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "당신이 카드를 꺼내려는 손을 덥석! 헤지가 잡아버려 계산도 헤지가 해버렸지말 말이에요.",
     bg: '',
     crt: '',
@@ -942,6 +1095,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "사랑스러운 연인의 욕심인걸요. 오늘 하루는 져줘도 괜찮을 것 같습니다.",
     bg: '',
     crt: '',
@@ -950,6 +1104,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "꼭 잡은 두 손을 살랑살랑 흔들며… 근처의 카페를 찾아 발걸음을 옮깁니다.",
     bg: '',
     crt: '',
@@ -962,6 +1117,7 @@ var textDataArr = [
 //카페
 
 {
+  name: '',
     text: "오랜 기간 방문하지 않았던 마을은 그동안의 아픔을 딛고 일어선 것인지 제법 활기찬 모습을 띄고 있었습니다.",
     bg: '',
     crt: '',
@@ -970,6 +1126,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "거주하는 사람들도 많아졌고, 무엇보다 문화생활을 즐길 수 있는 번화가가 번듯하게 자리를 잡고 있었습니다.",
     bg: '',
     crt: '',
@@ -978,6 +1135,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "비록 사람들이 거주하지 않는 외곽 부지는 아직 개발이 제대로 이루어지지 못한 모습이었지만 그럼에도 사람들의 얼굴에는 더이상 좀비에 대한 두려움은 보이지 않았습니다.",
     bg: '',
     crt: '',
@@ -986,6 +1144,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "번잡한 번화가, 사람들 사이를 얼마나 오래 걸었을까요…",
     bg: '',
     crt: '',
@@ -994,6 +1153,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "이내 두 사람은 헤지의 안내에 따라 귀여운 카페에 들어섭니다.",
     bg: '',
     crt: '',
@@ -1002,6 +1162,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그리고보니 이 카페는 체인점 같습니다. 저번에 초코 시트 구멍에 넣은 딸기가 마음에 들었는지 같은 카페를 고른 모양이네요.",
     bg: '',
     crt: '',
@@ -1010,6 +1171,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "카페… 헤지가 먹고싶은데루 와버렸어..갠찮지이?",
     bg: '',
     crt: '',
@@ -1018,6 +1180,7 @@ var textDataArr = [
     select: ['괜찮아요. 저번에 해준 초코 안에 딸기가 좋았어요?'],
   },
 {
+  name: '',
     text: "꺄! 들켜버렷다! 히…마자…♥ 쥬앗더….",
     bg: '',
     crt: '',
@@ -1026,6 +1189,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "잇찌이~ 여기에 새로운 디저트 나왔대… 이번에두 초코 딸기 디저트인데에~ 린스타에서만 보구 깜빡할 뻔 해버렷더…",
     bg: '',
     crt: '',
@@ -1034,6 +1198,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "당신의 아내는 무엇이 그리 좋은지 카운터로 달려가 주문을 합니다.",
     bg: '',
     crt: '',
@@ -1042,6 +1207,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "당신이 마실 음료는 헤지가 잘 알고있습니다. 당신은 주문하는 그를 두고 먼저 자리를 잡기로 합니다.",
     bg: '',
     crt: '',
@@ -1050,6 +1216,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "마침 안쪽에 구석진 자리가 비어있네요. 폭신한 패브릭 소파가 놓인 4인용 자리입니다. 자리는 많으니 저 자리를 이용해도 좋을 것 같아요.",
     bg: '',
     crt: '',
@@ -1058,6 +1225,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "당신이 자리를 잡고, 주문을 마친 헤지호그가 달려와 당신 옆자리에 착석을…",
     bg: '',
     crt: '',
@@ -1066,6 +1234,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "아니 이걸로 따뜻한 아이스 아메리카노 달라니까!",
     bg: '',
     crt: '',
@@ -1074,6 +1243,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "손님..죄송하지만 이건 사용기한이 지난 기프티콘이고 따뜻한 아이스 아메리카노는 없다고 말씀드렸는데…아이스 아니면 핫을…",
     bg: '',
     crt: '',
@@ -1082,6 +1252,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "사용기한이 지나긴 뭘 지나! 내가 그제 선물받은건데! 우리 형님이 주신거라고!",
     bg: '',
     crt: '',
@@ -1090,6 +1261,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그리고 따뜻한 아이스 아메리카노가 왜 없어!? 점장 나오라고해!!!",
     bg: '',
     crt: '',
@@ -1098,6 +1270,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그가 자리에 앉는 순간 카운터 쪽에서 소란스러운 목소리가 들려옵니다.",
     bg: '',
     crt: '',
@@ -1106,6 +1279,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그에 시선을 돌리면… 웬 아저씨와 아르바이트생이 사소한 언쟁을 하고 있네요.",
     bg: '',
     crt: '',
@@ -1114,6 +1288,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "매체에서 흔히 보이는 진상 유형인 것 같은데… 아무래도 당신의 연인은 그 진상에게서 시선을 떼지 못하고 있습니다.",
     bg: '',
     crt: '',
@@ -1122,6 +1297,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "설마… 행복한 데이트 날 못볼 걸 봤다고 생각하는 걸까요? 점점 헤지의 표정이 안좋아지고 있어요.",
     bg: '',
     crt: '',
@@ -1130,6 +1306,7 @@ var textDataArr = [
     select: ['헤지, 여기 봐요. 달링 봐주세요.','헤지, 나갈까요? 다른 곳 갈까요?'],
   },
 {
+  name: '',
     text: "그 순간, 벌떡!!",
     bg: '',
     crt: '',
@@ -1138,6 +1315,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "헤지가 그 자리에서 갑작스럽게 일어납니다.",
     bg: '',
     crt: '',
@@ -1146,6 +1324,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "이보세요, 아저씨. 이거 가만 듣고 있으니 완전 진상 아니야?!",
     bg: '',
     crt: '',
@@ -1154,6 +1333,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "세상에 따뜻한 아이스 아메리카노가 어딨어?! 아이스 몰라? 얼음이라는 뜻이잖아 얼음!!",
     bg: '',
     crt: '',
@@ -1162,6 +1342,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "진짜 멍청해서 듣다가 화가 나네! 아르바이트생한테 무슨 말버릇이야!?",
     bg: '',
     crt: '',
@@ -1170,6 +1351,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "이, 이게 무슨 상황이죠?헤지호그가 아저씨를 향해 손가락을 치켜들고 굉장히 화를 내고 있습니다.",
     bg: '',
     crt: '',
@@ -1178,6 +1360,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "이러다가 헤지가 위험하기라도 하면…",
     bg: '',
     crt: '',
@@ -1186,6 +1369,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "썩 나가! 그 형님인지 대장인지 속은 쪽은 당신이구만… 나가! 나가!",
     bg: '',
     crt: '',
@@ -1194,6 +1378,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그의 씩씩대는 화를 듣던 아저씨는 무어라 이야기를 하려고 했지만…",
     bg: '',
     crt: '',
@@ -1202,6 +1387,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "결국 온 몸을 휘저으며 다가오는 손님을 못이기고 허겁지겁 문 밖으로 나갑니다.",
     bg: '',
     crt: '',
@@ -1210,6 +1396,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "물론 꼴에 자존심이라고 욕을 내뱉긴 했지만 말이에요.",
     bg: '',
     crt: '',
@@ -1218,6 +1405,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "….",
     bg: '',
     crt: '',
@@ -1226,6 +1414,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "….",
     bg: '',
     crt: '',
@@ -1234,6 +1423,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "…저,저기.",
     bg: '',
     crt: '',
@@ -1242,6 +1432,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "… 괜찮아요?!",
     bg: '',
     crt: '',
@@ -1250,6 +1441,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "ㄴ,네?",
     bg: '',
     crt: '',
@@ -1258,6 +1450,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "저런 진상들한테 미소 지으면서까지 대해 줄 필요 없어요. ",
     bg: '',
     crt: '',
@@ -1266,6 +1459,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "할 수 있다면 내쫓아버려요! 저런 놈들은 제대로 콱 이야기 안하면 알아듣지도 못해! 따뜻한 아이스 아메리카노가 뭐야 정말!",
     bg: '',
     crt: '',
@@ -1274,6 +1468,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "헤지호그는 카운터에 서 있는 아르바이트생을 보며 열변을 토하기 시작합니다.",
     bg: '',
     crt: '',
@@ -1282,6 +1477,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "헤지의 기분을 걱정하던 당신이 무안해질 정도입니다.",
     bg: '',
     crt: '',
@@ -1290,6 +1486,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그도 그럴 것이 당신은 그의 이런 모습을 본 적이 거의 없었기 때문이겠죠? 두 사람이 운영하던 카페에도 진상은 종종 찾아왔지만 그때마다 헤지가 나오기 전에 당신이 해결했으니까요.",
     bg: '',
     crt: '',
@@ -1298,6 +1495,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "벙찐 표정으로 대화를 하고 있던 두 사람을 바라보고 있으면… 헤지는 양 손에 음료와 디저트를 들고 자리로 돌아옵니다.",
     bg: '',
     crt: '',
@@ -1306,6 +1504,7 @@ var textDataArr = [
     select: ['헤지, 괜찮아요?'],
   },
 {
+  name: '',
     text: "우… 웅! 헤지 다녀와떠. 여기 메뉴도 바다와떠…",
     bg: '',
     crt: '',
@@ -1314,6 +1513,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "… 다딩 깡짝 놀라떠? 헤지가 갑자기 이러나서 가버려서?",
     bg: '',
     crt: '',
@@ -1322,6 +1522,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "미아내… 헤지가 다딩 생각두 못하구 가짜기…",
     bg: '',
     crt: '',
@@ -1330,6 +1531,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "열변을 토하던 맹랑한 모습은 어디에 갔는지, 수줍은 아내는 다시금 얼굴을 붉혀옵니다.",
     bg: '',
     crt: '',
@@ -1338,6 +1540,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "…헤지 소리 마구 지러서 이상해떠..? 헤지가 하내서 시더..?",
     bg: '',
     crt: '',
@@ -1346,6 +1549,7 @@ var textDataArr = [
     select: ['그럴리가 없잖아요, 이쁜 사람.'],
   },
 {
+  name: '',
     text: "다딩은… 맨날 헤지한테 이뿌대…",
     bg: '',
     crt: '',
@@ -1354,6 +1558,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그치만 다행이야. 다링이 헤지 보구 그렇게 이야기 해조서, 헤지 아프루두 당당하게 다른 사람 도아주 쑤 이떠.",
     bg: '',
     crt: '',
@@ -1362,6 +1567,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "무엇이 걱정이었는지 헤지호그는 당신의 말에 기뻐하며 볼을 붉힙니다.",
     bg: '',
     crt: '',
@@ -1370,6 +1576,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "이찌, 이거 아바생 아가씨가 헤지한테 고맙따구 중거다? 초코따기 타루뚜!",
     bg: '',
     crt: '',
@@ -1378,6 +1585,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "이거당 요 신제품이랑 마시께 머꾸 노더 가자! 요 긍처에 쇼핑셍터 이때!",
     bg: '',
     crt: '',
@@ -1386,6 +1594,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "달달한 타르트와 맛있는 음료, 그리고 애교쟁이 아내. 방금 일어난 일이 마치 꿈처럼 느껴집니다.",
     bg: '',
     crt: '',
@@ -1394,6 +1603,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "하지만 이렇게 개운하고 기분 좋아보이는 아내를 보고 있자니 더 이야기를 꺼내는 것도 의미가 없겠죠.",
     bg: '',
     crt: '',
@@ -1402,6 +1612,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "불의를 참지 못하는 성격을 한껏 방출하고 기분이 좋아진 아내는, 타르트를 듬뿍 떠 당신의 입 앞에 대줍니다.",
     bg: '',
     crt: '',
@@ -1410,6 +1621,7 @@ var textDataArr = [
     select: ['타르트를 받아 먹는다.'],
   },
 {
+  name: '',
     text: "입 안에 퍼지는 달콤한 초코무스의 맛. 그리고 그 위에 상큼하게 얹혀지는 딸기 향이 제법 중독성 있는걸요?",
     bg: '',
     crt: '',
@@ -1418,6 +1630,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "한입, 두입… 케이크만큼이나 달콤한 말을 나누다 보면 어느샌가 접시 위는 깔끔하게, 머그컵은 텅 비어버립니다.",
     bg: '',
     crt: '',
@@ -1426,6 +1639,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그렇게 두 사람은 만족스럽게 디저트를 나눠먹곤 카페에서 빠져나옵니다.",
     bg: '',
     crt: '',
@@ -1434,6 +1648,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "달달함이 가득한 초코딸기케이크… 역시 주인장 부부의 1000일 세트에 꼭 초코딸기케이크를 넣어야겠어요.",
     bg: '',
     crt: '',
@@ -1443,6 +1658,7 @@ var textDataArr = [
   },
 //쇼핑몰
 {
+  name: '',
     text: "배부른 헤지호그의 다음 코스는 쇼핑몰입니다.",
     bg: '',
     crt: '',
@@ -1451,6 +1667,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그 작았던 마을이 이만큼이나 번화하고, 규모는 작지만 상인들이 몰려있는 쇼핑몰이 있다는 사실이 놀라울 따름입니다.",
     bg: '',
     crt: '',
@@ -1459,6 +1676,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "사람들이 오가는 쇼핑몰에 선 헤지는 눈을 반짝이며 주변을 둘러보다, 이내 당신을 바라봅니다.",
     bg: '',
     crt: '',
@@ -1467,6 +1685,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "다딩 쇼핑몰 구경하쟈! 여기 엉청 다양항거 마니 이떠!",
     bg: '',
     crt: '',
@@ -1475,6 +1694,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "저렇게 행복해하며 부탁하는데 당신이 거절할 수 있겠나요? 그의 행복은 당신의 행복이니까 말입니다.",
     bg: '',
     crt: '',
@@ -1483,6 +1703,7 @@ var textDataArr = [
     select: ['헤지가 바란다면 어디든 갈 수 있어요. 어디부터 볼까요?'],
   },
 {
+  name: '',
     text: "꺄아~! 다딩 머쪄어! 여씨 헤지의 다딩빠빠!",
     bg: '',
     crt: '',
@@ -1491,6 +1712,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "핫..호씨 헤지가 데이뚜 코스 짱능데 헤지 조아하능 곳만 아서… 시더?",
     bg: '',
     crt: '',
@@ -1499,6 +1721,7 @@ var textDataArr = [
     select: ['달링은 헤지와 있는 곳이면 어디든 좋아요.','싫다고 하면 삐질거에요~?'],
   },
 {
+  name: '',
     text: "우… 다딩이 호씨라도 시타구 하면 헤지… 삐지징아나두… 시패한 데뚜라구 생각해떠..",
     bg: '',
     crt: '',
@@ -1507,6 +1730,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그,그치망! 헤지 여기 옹 이유 이떠!! 다딩이랑 꼭 하구시푼거 이떠더어!!",
     bg: '',
     crt: '',
@@ -1515,6 +1739,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "하고싶은게 있다니, 그가 당신을 이곳에 데려온 이유가 있는 모양입니다.",
     bg: '',
     crt: '',
@@ -1523,6 +1748,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "하고 싶은 일이 무슨 일이냐 물을 세도 없이 그는 당신의 손을 꽉 붙들었고",
     bg: '',
     crt: '',
@@ -1531,6 +1757,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "이내 탁탁탁… 쇼핑몰 중앙에 위치한 한 가게로 들어갑니다.",
     bg: '',
     crt: '',
@@ -1539,6 +1766,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "가게에 들어가기 전 슬쩍 본 간판에는 '인생네컷'이라고 적혀 있었습니다.",
     bg: '',
     crt: '',
@@ -1547,6 +1775,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "인생… 네컷? 당신은 들어본 적 있나요?",
     bg: '',
     crt: '',
@@ -1555,6 +1784,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "헤지 치미 이떠… 다딩이랑 헤지 사진첩 보능거, 다딩두 알지?",
     bg: '',
     crt: '',
@@ -1563,6 +1793,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "다딩 사진첩 보면서 생가캣는데, 카메라를 늘 켜서 찍을 순 없어두 이더케 실물 사진을 뽑아서 사진첩에 껴두면 나중에 1000일땐 이런 일을 해썼지~ 하구 생각 하 쑤 있으니까..",
     bg: '',
     crt: '',
@@ -1571,6 +1802,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "요즘 애들은 이렁거 찍능데! 인생네컷…? 사진을 4개 찌글 수 잉나바!!",
     bg: '',
     crt: '',
@@ -1579,6 +1811,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그러니까 요약하면 사진을 찍는데, 그걸 네개의 칸에 넣을 수 있다…그런 것 같습니다.",
     bg: '',
     crt: '',
@@ -1587,6 +1820,7 @@ var textDataArr = [
     select: ['헤지, 사진 찍고 싶었어요?'],
   },
 {
+  name: '',
     text: "..다딩이랑 기념일은 늘 사지느로 남기구 시펏더.",
     bg: '',
     crt: '',
@@ -1595,6 +1829,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그래야디 헤지 취미를 오래오래 즐길 수 이꾸 달링 생각두 마니 하 쑤 이쓰니까!",
     bg: '',
     crt: '',
@@ -1603,6 +1838,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "헤지는 당신과 사진 찍을 생각에 잔뜩 들떠 있습니다",
     bg: '',
     crt: '',
@@ -1611,6 +1847,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "저렇게 좋아하는데 거절할 수 있겠나요. 당신이 찍힌 사진을 좋아한다는 것은 그간 봐온 모습이 있으니 알고 있던 사실입니다.",
     bg: '',
     crt: '',
@@ -1619,6 +1856,7 @@ var textDataArr = [
     select: ['좋아요, 달링이 어떻게 해야하는지 알려줄래요?'],
   },
 {
+  name: '',
     text: "당신의 허락이 떨어지자 헤지는 얼굴에 활짝 미소를 만개하며 웃어보입니다.",
     bg: '',
     crt: '',
@@ -1627,6 +1865,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "응!이라는 답과 함께 그를 따라 작은 방으로 들어가면 사진기와 리모콘이 보이고…",
     bg: '',
     crt: '',
@@ -1635,6 +1874,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그 리모콘을 든 헤지는 패널에 뜨는 버튼을 몇개 콕콕 눌러보입니다.",
     bg: '',
     crt: '',
@@ -1643,6 +1883,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "바바, 다딩! 앞으루 10초마다 사진 찌글거야! 8번! 포즈 잘 취해조야대요~? 준비댓죠?",
     bg: '',
     crt: '',
@@ -1651,6 +1892,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "한껏 기대에 찬 그의 질문. 당신은 카메라를 응시합니다.",
     bg: '',
     crt: '',
@@ -1659,6 +1901,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "준비라고 해봤자 당신은 뻗은 머리를 차분히 눌러놓는 것 뿐입니다. 어떤가요, 클라우스. 준비되었나요?",
     bg: '',
     crt: '',
@@ -1667,6 +1910,7 @@ var textDataArr = [
     select: ['준비가 됐다.'],
   },
 {
+  name: '',
     text: "찰칵!찰칵!찰칵!... ",
     bg: '',
     crt: '',
@@ -1675,6 +1919,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "경쾌한 소리와 함께 플래시가 터지고, 사진 인화라고 적혀있는 작은 구멍에서 긴 사진이 밀려 나옵니다.",
     bg: '',
     crt: '',
@@ -1683,6 +1928,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "4개의 사진, 두 사람이 열심히 포즈를 취한 네개의 사진들이 줄줄 이어진 형태의 필름모형.",
     bg: '',
     crt: '',
@@ -1691,6 +1937,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "앨범에 예쁘게 끼워두기엔 힘들겠지만 함께 보관한다면 만족스러운 앨범이 될 것 같습니다.",
     bg: '',
     crt: '',
@@ -1699,6 +1946,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "우리 동네에두 이렁거 이찌만 우리는 일부러 찾아서 찌그러 다니진 않차나",
     bg: '',
     crt: '',
@@ -1707,6 +1955,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그러니까아…다딩이랑 걸어서 나옹 김에 찍구시펏더.",
     bg: '',
     crt: '',
@@ -1715,6 +1964,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "차타구 다니는 데뚜는 따뜻하구 둘이서 소공소공 대화 할 수 있다능 장점 이찌만… 헤지는 이더케 거러다니는 데뚜도 종종 하구시따구 생가캐떠.",
     bg: '',
     crt: '',
@@ -1723,6 +1973,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "아프루는 헤디랑 따뜻 김밥 하구 나가는 데뚜도 마니 하쟈, 웅",
     bg: '',
     crt: '',
@@ -1731,6 +1982,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "헤지의 애교섞인 말을 끝으로, 두 사람은 가게에서 빠져나옵니다. 그가 가지고 싶어하던 1000일 기념 사진을 손에 꼭 쥐고 말이에요.",
     bg: '',
     crt: '',
@@ -1739,6 +1991,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "어느덧 해는 뉘엿뉘엿 기울고 있습니다.",
     bg: '',
     crt: '',
@@ -1747,6 +2000,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "이대로 쇼핑몰에서 빠져나가기도 아쉽고, 쇼핑몰을 구경하다 저녁을 먹으러 가는 것은 어떨까요?",
     bg: '',
     crt: '',
@@ -1755,6 +2009,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "열심히 돌아다니다보면 배도 꺼질테고 1000일 기념 선물을 고를 수도 있을테니 말이에요.",
     bg: '',
     crt: '',
@@ -1763,6 +2018,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "두 사람을 그렇게 노을지는 쇼핑몰을 둘러보기로 합니다.",
     bg: '',
     crt: '',
@@ -1773,6 +2029,7 @@ var textDataArr = [
 
 //공원
 {
+  name: '',
     text: "2023년 02월 25일, 밤 9시.",
     bg: '',
     crt: '',
@@ -1781,6 +2038,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "저녁을 먹고 쇼핑몰을 둘러보며 한껏 쇼핑을 한 두 사람은 그대로 차로 돌아가려고 했으나 근처에 있는 공원에 시선을 빼앗기고 맙니다.",
     bg: '',
     crt: '',
@@ -1789,6 +2047,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "은은한 가로등과 조용한 풀벌레소리, 그리고 깔끔한 조명. 오가는 사람이 적은 공원.",
     bg: '',
     crt: '',
@@ -1797,6 +2056,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "와아, 다딩! 저거 빠! 여기 붕수대는 분수 계속 나온다!",
     bg: '',
     crt: '',
@@ -1805,6 +2065,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "공원이라면 흔하게 볼 수 있는 분수임에도 무엇이 그리 좋은지, 그는 활짝 웃으며 분수 쪽으로 달려갑니다.",
     bg: '',
     crt: '',
@@ -1813,6 +2074,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "은은하게 비추는 분수대 조명, 그리고 그 앞에 선 당신의 연인은 가볍게 몸을 돌려 빛을 등집니다.",
     bg: '',
     crt: '',
@@ -1821,6 +2083,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "헤헤, 날이 마니 풀려서 선선한게 기부니 조아! 그치? 밤인데도 이렇게 춥지 않다니…",
     bg: '',
     crt: '',
@@ -1829,6 +2092,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "…어때 다딩? 이번에 헤지랑 한 데이투는? 헤지 나름대로 열심히 꾸려봥능데… 다딩 마으매 드러쓸까?",
     bg: '',
     crt: '',
@@ -1837,6 +2101,7 @@ var textDataArr = [
     select: ['아주 마음에 들었어요.','달링도 준비하려고 했는데, 아쉬웠어요.'],
   },
 {
+  name: '',
     text: "이버내는 헤지가 해중다구 해짜나아! 그러니까 헤지가 중비한거 마니마니 즈겨!",
     bg: '',
     crt: '',
@@ -1845,6 +2110,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "발렝타잉 데이두, 하이트 데이두, 다딩이랑 헤지 항께 이써야하니까… 그때능 가치 중비하자.",
     bg: '',
     crt: '',
@@ -1853,6 +2119,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그디구…",
     bg: '',
     crt: '',
@@ -1861,6 +2128,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "말을 이어가던 이는 주머니에서 무언가를 꺼냅니다.",
     bg: '',
     crt: '',
@@ -1869,6 +2137,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "어라, 언제부터 저런걸 산거죠?",
     bg: '',
     crt: '',
@@ -1877,6 +2146,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그가 꺼낸 것은 작은 쇼핑백… 그리고 그 안에는 분홍색 카드 지갑이 보입니다.",
     bg: '',
     crt: '',
@@ -1885,6 +2155,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "헤디 담믄 카두지갑…",
     bg: '',
     crt: '',
@@ -1893,6 +2164,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "다딩한테 꼬 사주구시펏더. 아내 헤지 증명사진두 너어나떠!",
     bg: '',
     crt: '',
@@ -1901,6 +2173,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그는 자신이 준비한 지갑을 당신에게 건넵니다.",
     bg: '',
     crt: '',
@@ -1909,6 +2182,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "사진도 넣어주다니, 어디서나 헤지를 보고 지내라는 아내의 사랑스러운 애교에…",
     bg: '',
     crt: '',
@@ -1917,6 +2191,7 @@ var textDataArr = [
     select: ['너무 기뻐요, 헤지.'],
   },
 {
+  name: '',
     text: "당신은 그대로 웃음을 지어버립니다.",
     bg: '',
     crt: '',
@@ -1925,6 +2200,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "… … 새로운 해에 이러케 다링이랑 1000일을 맞이해서 기뽀.",
     bg: '',
     crt: '',
@@ -1933,6 +2209,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "이제 곧 3주년잉걸. 다딩이랑 3주녕에는 모 하찌 생각해바야대.",
     bg: '',
     crt: '',
@@ -1941,6 +2218,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "헤지 아프루두 여씨미, 다딩의 착실항 아내가 대께.",
     bg: '',
     crt: '',
@@ -1949,6 +2227,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그더니까…아프루두 헤지를 이뻐해주구, 헤지한테 사랑 표현 마니 해조요?",
     bg: '',
     crt: '',
@@ -1957,6 +2236,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "헤디 사랑하는거 숭기명 안대…? 헤지는 다딩이 이야기 안해주면 모릉단마댜… 헤지 부란하게 하지 마라조.",
     bg: '',
     crt: '',
@@ -1965,6 +2245,7 @@ var textDataArr = [
     select: ['당연해요. 절대 헤지를 불안하게 하지 않아요.'],
   },
 {
+  name: '',
     text: "…",
     bg: '',
     crt: '',
@@ -1973,6 +2254,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "사당해, 다딩. 1000일두 햄보켓더. 마니마니 사랑해.",
     bg: '',
     crt: '',
@@ -1981,6 +2263,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "히히, 망족! 이제 지배 가자. 몽이 기다리게떠!!",
     bg: '',
     crt: '',
@@ -1989,6 +2272,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "헤지의 작은 이벤트. 그가 꾸민 꿈만같은 1000일 데이트가 막을 내립니다.",
     bg: '',
     crt: '',
@@ -1997,6 +2281,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "하늘에 수놓아진 작은 별들은 당신을 위해 반짝이고,",
     bg: '',
     crt: '',
@@ -2005,6 +2290,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "오늘도 사랑이 넘치는 몸소 체감하며 집으로 돌아갑니다.",
     bg: '',
     crt: '',
@@ -2013,6 +2299,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "헤지의 행복한 웃음소리와 함께….",
     bg: '',
     crt: '',
@@ -2021,6 +2308,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "….",
     bg: '',
     crt: '',
@@ -2029,6 +2317,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "오늘 하루는 즐거웠나요, 클라우스?",
     bg: '',
     crt: '',
@@ -2037,6 +2326,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "헤지와 장모님이 준비한 이벤트는 아주아주 마음에 들었나요?",
     bg: '',
     crt: '',
@@ -2045,6 +2335,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "장모님도 1000일이나 함께해준 친구는 처음이어서 조금 들떠있었던 것 같아요.",
     bg: '',
     crt: '',
@@ -2053,6 +2344,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그래도 기회가 된만큼 열심히 준비했고, 클라우스에게 감동을 주고싶어서 친구와 함께 3달 간 힘냈어요.",
     bg: '',
     crt: '',
@@ -2061,6 +2353,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "이 게임이 전부 담지 못한 내용이나 하고싶은 것도 많이 있었는데, 그것보다 아쉬운 점이 있다면 역시 모자란 글솜씨로 적혀진 스크립트 내용이에요.",
     bg: '',
     crt: '',
@@ -2069,6 +2362,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "어떻게 하면 달링에 대한 사랑을 표현할 수 있을지, 그게 잘 전달되려면 어떻게 해야할지 고민을 많이 했는데도 결국 마음만큼 전부 담기지 않을 것 같아요.",
     bg: '',
     crt: '',
@@ -2077,6 +2371,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "그래도 아주아주, 세상에서 제일 클라우스를 사랑하고 있음은 변하지 않는 사실이에요.",
     bg: '',
     crt: '',
@@ -2085,6 +2380,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "오늘도 헤지의 사랑을 잔뜩 받아주세요. 그리고 헤지를 위해 사랑을 표현해주세요.",
     bg: '',
     crt: '',
@@ -2093,6 +2389,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "앞으로도 헤지를 잘 부탁할게요. 아주 많이 좋아해요 우쥬~",
     bg: '',
     crt: '',
@@ -2101,6 +2398,7 @@ var textDataArr = [
     select: [],
   },
 {
+  name: '',
     text: "from. 클라우스의 시어머니가.",
     bg: '',
     crt: '',

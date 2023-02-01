@@ -1,3 +1,4 @@
+var dataName = '';
 var dataText = '';
 var dataBg = '';
 var dataCrt = '';
@@ -87,6 +88,7 @@ function typing(){
 function stageFunc(){
   clearInterval(timer);
 
+  dataName = textDataArr[chapt].name;
   dataText = textDataArr[chapt].text;
   dataBg = textDataArr[chapt].bg;
   dataCrt = textDataArr[chapt].crt;
@@ -97,27 +99,37 @@ function stageFunc(){
   $('.typing_text').text(''); // 타이핑 된 텍스트 초기화
   $('.talk_box .text').text(dataText); // 타이핑 될 텍스트 넣어주기
 
-  if(!!dataCg){ // 일러스트 화면인 경우
-    $('.crt_box').addClass('off');
-    $('.ch_container').css({'background-image' : 'url(' + dataCg + ')'});
-  }else{
-    if(!!dataBg){ // 배경이미지
-      $('.ch_wrapper').css({'background-image': 'url(' + dataBg + ')'});
+  if(!!dataName){
+    if(dataName == 'xx'){
+      $('.talk_name .name').text('');
+    }else{
+      $('.talk_name .name').text(dataName);
     };
-    if(!!dataCrt){ // 스탠딩 캐릭터
+  };
+  if(!!dataCg){ // 일러스트 화면인 경우
+    //$('.crt_box').addClass('off');
+    $('.ch_container').css({'background-image' : 'url(' + dataCg + ')'});
+  };
+  if(!!dataBg){ // 배경이미지
+    $('.ch_wrapper').css({'background-image': 'url(' + dataBg + ')'});
+  };
+  if(!!dataCrt){ // 스탠딩 캐릭터
+    if(dataCrt == 'xx'){
+      $('.crt_box img').attr('src', '');
+    }else{
       $('.crt_box img').attr('src', dataCrt);
     };
-    if(!!dataAudio){ // 효과음
-      $('#audio source').attr('src', dataAudio);
-      document.getElementById('audio').load();
-      document.getElementById('audio').play();
-    };
-    if(!!dataSelect.length){ // 선택지(typing 함수에 나머지 이벤트 있음)
-      $('.talk_box .button_next').addClass('displaynone');
-    }else{
-      $('.select_box').html('');
-      $('.select_box').addClass('off');
-    };
+  };
+  if(!!dataAudio){ // 효과음
+    $('#audio source').attr('src', dataAudio);
+    document.getElementById('audio').load();
+    document.getElementById('audio').play();
+  };
+  if(!!dataSelect.length){ // 선택지(typing 함수에 나머지 이벤트 있음)
+    $('.talk_box .button_next').addClass('displaynone');
+  }else{
+    $('.select_box').html('');
+    $('.select_box').addClass('off');
   };
 
   i = 0;
