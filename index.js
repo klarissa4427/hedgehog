@@ -108,7 +108,11 @@ function stageFunc(){
   };
   if(!!dataCg){ // 일러스트 화면인 경우
     //$('.crt_box').addClass('off');
-    $('.ch_container').css({'background-image' : 'url(' + dataCg + ')'});
+    if(dataCg == 'xx'){
+      $('.ch_container').attr('style', '');
+    }else{
+      $('.ch_container').css({'background-image' : 'url(' + dataCg + ')'});
+    };
   };
   if(!!dataBg){ // 배경이미지
     if(dataBg == 'xx'){
