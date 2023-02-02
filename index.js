@@ -111,7 +111,11 @@ function stageFunc(){
     $('.ch_container').css({'background-image' : 'url(' + dataCg + ')'});
   };
   if(!!dataBg){ // 배경이미지
-    $('.ch_wrapper').css({'background-image': 'url(' + dataBg + ')'});
+    if(dataBg == 'xx'){
+      $('.ch_wrapper').css({'background-image': 'none'});
+    }else{
+      $('.ch_wrapper').css({'background-image': 'url(' + dataBg + ')'});
+    };
   };
   if(!!dataCrt){ // 스탠딩 캐릭터
     if(dataCrt == 'xx'){
@@ -126,6 +130,8 @@ function stageFunc(){
     document.getElementById('audio').play();
   };
   if(!!dataSelect.length){ // 선택지(typing 함수에 나머지 이벤트 있음)
+    $('.select_box').html('');
+    $('.select_box').addClass('off');
     $('.talk_box .button_next').addClass('displaynone');
   }else{
     $('.select_box').html('');

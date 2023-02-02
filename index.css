@@ -150,17 +150,19 @@ button{background: none; border:none; box-shadow:none; border-radius:0; padding:
   transition: 0.5s;
 }
 .select_box button{
-  width: 536px;
-  height: 64px;
-  background: url(img/bg_select.png) center no-repeat;
+  width: 541px;
+  height: 108px;
+  padding: 0 20px;
+  background: url(img/bg_select2.png) center no-repeat;
   background-size: 100% 100%;
   font-size: 24px;
   color: #fff;
+  line-height: 1.2;
   font-weight: 700;
   user-select: none;
 }
 .select_box button:nth-of-type(n+2){
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 
