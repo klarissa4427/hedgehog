@@ -72,6 +72,11 @@ button{background: none; border:none; box-shadow:none; border-radius:0; padding:
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  user-select: none;
+}
+
+.crt_box img{
+  user-select: none;
 }
 
 .talk_box{
@@ -82,6 +87,9 @@ button{background: none; border:none; box-shadow:none; border-radius:0; padding:
   width: 1309px;
   background: url(img/bg_talk.png) center bottom no-repeat;
   background-size:100% auto;
+}
+.talk_box.all_cg{
+  opacity: 0;
 }
 .talk_box .talk_name{
   position: absolute;
@@ -114,6 +122,10 @@ button{background: none; border:none; box-shadow:none; border-radius:0; padding:
 }
 .talk_box .button_next{
   right: 0;
+}
+.talk_box.all_cg .button_next{
+  width: 100%;
+  height: 100%;
 }
 .talk_box .button_next img{
   position: absolute;

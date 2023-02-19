@@ -111,8 +111,13 @@ function stageFunc(){
     if(dataCg == 'xx'){
       $('.ch_container').attr('style', '');
     }else{
+      if(dataCg.indexOf('cg_') > -1){
+        $('.talk_box').addClass('all_cg');
+      };
       $('.ch_container').css({'background-image' : 'url(' + dataCg + ')'});
     };
+  }else{
+    $('.talk_box').removeClass('all_cg');
   };
   if(!!dataBg){ // 배경이미지
     if(dataBg == 'xx'){
