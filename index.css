@@ -1,3 +1,4 @@
+/*
 @font-face {
   font-family: '123rf';
   src: url('font/123RF_L_TTF.woff') format('woff');
@@ -15,6 +16,13 @@
   src: url('font/123RF_B_TTF.woff') format('woff');
   font-weight: 700
 }
+*/
+
+@font-face {
+  font-family: '강원교육모두';
+  src: url('font/강원교육모두-Bold.woff') format('woff');
+  font-weight: 700
+}
 
 @font-face {
   font-family: 'morris';
@@ -22,7 +30,8 @@
   font-weight: 400
 }
 
-body{ font-family: '123rf', sans-serif;}
+
+body{ font-family: '강원교육모두', sans-serif;}
 img{max-width:100%;}
 button{background: none; border:none; box-shadow:none; border-radius:0; padding:0; overflow:visible; cursor:pointer; font-family: inherit;}
 .displaynone{display: none !important;}
@@ -103,9 +112,9 @@ button{background: none; border:none; box-shadow:none; border-radius:0; padding:
   top: 90px;
   left: 0;
   padding: 0 60px;
-  font-size: 31px;
+  font-size: 33px;
   font-weight: 700;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.02em;
   user-select: none;
 }
 .talk_box button{
